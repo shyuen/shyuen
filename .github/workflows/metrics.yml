@@ -24,7 +24,7 @@ jobs:
           #committer_token: ${{ secrets.GITHUB_TOKEN }}
 
            # Show errors for blocks that can't be rendered
-          plugin_errors_fatal: yes
+          plugins_errors_fatal: yes
 
           # Lines Plugin
           plugin_lines: yes
@@ -34,7 +34,7 @@ jobs:
 
           # Topics Plugin
           plugin_topics: yes
-          plugins_topics_mode: mastered
+          plugin_topics_mode: mastered
 
           # Stars Plugin
           plugin_stars: yes
