@@ -11,7 +11,7 @@ Site Reliability Engineer who's built Kubernetes clusters and cloud infrastructu
 ## What I Do
 
 - **Kubernetes & Containers** — production clusters (GKE, EKS, OpenShift), Istio service mesh, Helm/Kustomize, sidecar & init containers, Docker
-- **CI/CD & GitOps** — Argo CD, GitHub Actions, Harness.io, Cloud Build, CircleCI, FluxCD; blue-green deployments, trunk-based branching
+- **CI/CD & GitOps** — ArgoCD, GitHub Actions, Harness.io, Cloud Build, CircleCI, FluxCD; blue-green deployments, trunk-based branching, reusable self-service onboarding templates
 - **Cloud & Infrastructure as Code** — AWS and GCP; Terraform, Chef, HashiCorp Vault, External Secrets
 - **Observability & Reliability** — Datadog, Splunk, Prometheus, CloudWatch, Dynatrace; SLOs, alerting, on-call rotations, blameless retrospectives
 - **AI-assisted Engineering** — daily use of AI tools for coding, configuration review, and automated test summaries in CI pipelines
@@ -20,9 +20,9 @@ Site Reliability Engineer who's built Kubernetes clusters and cloud infrastructu
 
 ## Experience Highlights
 
-- **Telus — Cloud Operations Engineer (2022–2026)** — Led the Emergency Alerting System migration from on-premises to GKE; operated the Istio service mesh for a life-safety platform serving Canadians; drove GitOps CI/CD adoption across three platforms (Argo CD, Harness.io, GitHub Actions).
-- **Scope AR — DevOps Engineer (2019–2022)** — Sole DevOps owner who built the entire AWS platform from zero to production for a $15M Series A AR company, supporting enterprise clients including Lockheed Martin and Johnson & Johnson.
-- **University of Alberta — Application Hosting Systems Analyst (2016–2019)** — Re-architected a large production service from OpenStack to AWS within 4 months, meeting a critical Fall 2017 launch deadline.
+- **Telus — Cloud Operations Engineer (2022–2026)** — Led the Emergency Alerting System migration from on-premises to GKE; operated the Istio service mesh for a life-safety platform serving Canadians; drove GitOps CI/CD adoption across three platforms (ArgoCD, Harness.io, GitHub Actions), building reusable templates for fast team onboarding; self-hosted a NuGet registry (BaGetter) for supply-chain security and led cross-team Liquibase adoption.
+- **Scope AR — DevOps Engineer (2019–2022)** — Sole DevOps owner who built the entire AWS platform from zero to production for a $15M Series A AR company, supporting enterprise clients including Lockheed Martin and Johnson & Johnson; cut 3D-model conversion VM costs >90% with an AWS Batch pipeline and reduced spend 70% by unifying GitOps deployments.
+- **University of Alberta — Application Hosting Systems Analyst (2016–2019)** — Re-architected a large production service from OpenStack to AWS within 4 months, meeting a critical Fall 2017 launch deadline; cut environment provisioning to ~30 minutes via Jenkins, Terraform, and Chef automation.
 
 ## Projects
 
