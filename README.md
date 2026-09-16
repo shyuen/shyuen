@@ -26,7 +26,8 @@ Site Reliability Engineer who's built Kubernetes clusters and cloud infrastructu
 
 ## Projects
 
-- **[eas-weather-rs](https://github.com/shyuen/eas-weather-rs)** — Rust microservice serving Emergency Alert System (EAS) information via an HTTP API. Hexagonal architecture, SQLx migrations, OpenAPI/Swagger documentation, and Docker/Nix container images built for Kubernetes.
+- **[eas-weather-rs](https://github.com/shyuen/eas-weather-rs)** — Rust microservice serving Emergency Alert System (EAS) information via an HTTP API. Hexagonal architecture, SQLx migrations, OpenAPI/Swagger documentation, and container images built reproducibly with a Nix flake (`rust-toolchain.toml` pinned toolchain) alongside a plain Dockerfile.
+- **[eas-weather-rs-k8s](https://github.com/shyuen/eas-weather-rs-k8s)** — GitOps home that deploys eas-weather-rs with ArgoCD. A Helm chart renders the workload; Kustomize overlays shape dev/staging/prod. TOML config lives in ConfigMaps with secret file-path mounts, config changes roll pods via a `checksum/config` annotation, and the app repo's CI bumps overlay image tags straight into `main` (guarded by a helm lint + kustomize build + kubeconform verify workflow).
 
 ## Certifications
 
