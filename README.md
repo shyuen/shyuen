@@ -1,8 +1,10 @@
 # Hi, I'm Shun Yuen 👋
 
-Site Reliability Engineer who's built Kubernetes clusters and cloud infrastructure across AWS and GCP so they stop calling me at 3am. When I'm not doing that, I'm deep in a NixOS rabbit hole, writing Rust, or automating my workflow with AI. Outside of tech I design and 3D print my own models, surf the waves, and homebrew custom board game content. Based in Edmonton, AB.
+SRE and DevOps engineer who's built Kubernetes clusters and cloud infrastructure across AWS and GCP so they stop calling me at 3am. When I'm not doing that, I'm deep in a NixOS rabbit hole, writing Rust, or automating my workflow with AI. Outside of tech I design and 3D print my own models, surf the waves, and homebrew custom board game content. Based in Edmonton, AB.
 
 📍 Edmonton, AB, Canada
+
+Currently open to senior SRE/DevOps roles (remote-friendly).
 
 ## Tech Stack
 
